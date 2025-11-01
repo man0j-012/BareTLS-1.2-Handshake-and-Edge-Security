@@ -1,0 +1,10 @@
+
+connected
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 28
+Connection: close
+Date: Sat, 15 Apr 2023 11:09:24 GMT
+Server: nginx
+...
+{"serverTime":1681556964107}
