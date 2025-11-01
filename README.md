@@ -1,10 +1,8 @@
 
 # TLS 1.2 Client — Prefers `TLS_RSA_WITH_AES_128_CBC_SHA` (C++)
 
-**What this is:** A tiny, from-scratch C++ demo that opens a TLS 1.2 client
-connection with OpenSSL and *prefers* the legacy cipher suite
-`TLS_RSA_WITH_AES_128_CBC_SHA` for educational purposes, then performs a simple
-HTTP/1.1 GET and prints the response.
+ Built a complete TLS 1.2 handshake in C++, hand-crafting records on raw sockets and using OpenSSL solely for RSA/AES/SHA-1.
+`TLS_RSA_WITH_AES_128_CBC_SHA` 
 
 > ⚠️ Many servers have disabled this legacy suite. If negotiation fails, OpenSSL
 > will select another TLS 1.2 suite that's mutually supported. You can change
